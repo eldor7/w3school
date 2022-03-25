@@ -1,0 +1,861 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    height: 70px;
+}
+
+li{
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 4%;
+    color: rgb(63, 18, 18);
+    font-size: 18px;
+    width: 120px;
+    text-align: center;
+    padding-right: 20px;
+    cursor: pointer;
+
+}
+
+li:hover{
+    background-color: rgb(109, 103, 94);
+    height: 70px;
+    width: 120px;
+}
+
+.navbarleft{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbarul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 70px; 
+    width: 50%;
+}
+
+.navbarright{
+    flex: 1;
+    margin-left: 13%;
+    
+}
+
+.nabarul1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.button2:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(109, 103, 94);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button2{
+    height: 38px;
+    width: 140px;
+    border-radius: 25px;
+    background-color: #04AA6D;
+    border: none;
+}
+
+.li{
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 170px;
+}
+
+.li:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(145, 136, 124);
+    border-radius: 20px;
+    width: 170px;
+    height: 35px;
+    cursor: pointer;
+}
+
+svg:hover{
+    background-color: rgb(145, 136, 124);
+    cursor: pointer;
+}
+
+.button1{
+    height: 38px;
+    width: 140px;
+    border-radius: 25px;
+    background-color: rgb(231, 208, 177);
+    border: none;
+}
+
+.button1:hover{
+    background-color: rgb(145, 136, 124);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.homecon{
+    width: 100%;
+    border: 1px solid #555;
+    height: 500px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #282A35;
+    color: #fff;
+}
+
+.homecon h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: grid;
+    align-items: center;
+    padding-top: 100px;
+    font-size: 80px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #282A35;
+    color: white;
+}
+
+.homecon p{
+    color: #FFC0C7;
+    font-weight: 700;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: block;
+    background-color: #282A35;
+    text-align: center;
+    min-height: 100%; 
+}
+
+#input{
+    display: block;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #282A35;
+    border-radius: 25px;
+    float: left;
+    width: 80%;
+    padding-left: 25px;
+    background: white;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    border-right: 1px solid #04AA6D;
+    outline: 0;
+    margin-top: -150px;
+}
+
+.ahref{
+    color: #fff;
+    text-align: center;
+    margin-top: -100px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.html{
+    width: 100%;
+    height: 600px;
+    background-color: #D9EEE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.htmlleft{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.htmlleft h1{
+    font-size: 700%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500px;
+    text-align: center;
+}
+
+.html p{
+    font-family: serif;
+    font-size: 22px;
+
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 50px;
+}
+
+.searchimg{
+    width: 100px;
+    height: 49px;
+    margin-top: -150px;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #04AA6D;
+    background-size: cover;
+}
+
+
+.button{
+    text-align: center;    
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #282A35;
+    border: none;
+    color: #fff;
+}
+
+.expirenscon{
+    display: grid;
+    flex: 1;
+    
+}
+
+button{
+    cursor: pointer;
+}
+
+.example{
+    width: 80%;
+    height: 400px;
+    box-shadow: 1px 2px 2px 4px rgb(177, 177, 175);
+    margin-top: 70px;
+    background-color: #D9EEE1;
+    border: 1px solid #D9EEE1;
+    padding: 20px;
+    border-radius: 10px; 
+    font-size: 12px;
+    margin-left: 10%;
+}
+
+.text{
+    border-left: 5px solid #04AA6D;
+    height: 70%;
+    margin-top: 20px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    background-color: #fff;
+}
+
+.button3{
+    width: 200px;
+    height: 40px;
+    margin-top: 14px;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    background-color: #04AA6D;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+
+.learncon{
+    display: grid;
+    grid-template-areas: "a a";
+    gap: 20px;
+    text-align: center;
+    background-color: #282A35;
+}
+
+.learncon p{
+    margin-top: -60px;
+}
+
+
+
+.hplearnp{
+    flex: 1;
+    height: 230px;
+    width: 70%;
+    border-radius: 10px;
+    margin: 70px;
+    background-color: rgb(248, 180, 180);
+}
+
+.hplearnp h1{
+    margin-top: 30px;
+    font-size: 40px;
+
+}
+
+.hplearnp p{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.button6{
+    margin-top: 25px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+
+}
+
+.button5{
+    margin-top: 25px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+
+}
+
+
+.jquerycon{
+    flex: 1;
+    background-color: #d9ec2e;
+    height: 230px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+    margin-left: -19%;
+}
+
+.jquerycon h1{
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.jquerycon p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+.ourcours{
+    display: grid;
+    grid-template-areas: "a a a a";
+    gap: 10px;
+    background-color: #282A35;
+    height: 1500px;
+    padding: 40px 70px;
+    
+}
+
+.c button{
+    width: 36vh;
+    height: 120px;
+    border-radius: 15px;
+    background-color: rgb(99, 221, 215);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 30px;
+}
+
+.comlearn{
+    display: grid;
+    grid-template-areas: "a a";
+    gap: 10px;
+    background-color: #282A35;
+    height: 500px;
+    padding: 0px 70px;
+    
+}
+
+.excel button{
+    width: 83vh;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(99, 221, 215);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 30px;
+
+}
+
+.videoselector{
+    text-align: center;
+    background-color: #282A35;
+    color: #fff;
+    padding-top: 40px;   
+    height: 900px;
+    
+}
+
+.videoselector h1{
+    font-size: 60px;
+}
+
+.videoselector img{
+    margin-top: 50px;
+}
+
+.videoselector p{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.videoselector button{
+    display: block;
+    margin-left: 15%;
+    width: 20%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #41471e;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+}
+
+.spaces{
+    background-image: url(./img/priscilla-du-preez-XkKCui44iM0-unsplash-1-scaled.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 800px;
+    width: 100%;
+    text-align: center;
+    box-sizing: inherit;
+    position: relative;
+    min-height: 100%;
+    padding-top: 80px;
+    color: #fff;
+}
+
+.opasity{
+    background-color: #282A35;
+    margin-top: -80px;
+    opacity: 0.9;
+    padding-top: 50px;
+}
+
+.spaces h1{
+    font-size: 70px;
+    display: block;
+    color: #fff;
+}
+
+.spaces p{
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.spaces img{
+    margin-top: 70px;
+    border: none;
+    width: 80%;
+}
+
+.spaces button{
+    width: 20%;
+    height: 50px;
+    margin-top: 80px;
+    border-radius: 20px;
+    background-color: #41471e;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+}
+
+
+.picker{
+    text-align: center;
+    height: 450px;
+    padding-top: 60px;
+
+
+}
+
+.picker h1{
+    font-size: 55px;
+}
+
+.picker p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.picker img{
+    margin-top: 50px;
+}
+
+.gamecon{
+    text-align: center;
+    background-color: #15bad3;
+    height: 500px;
+    padding-top: 50px;
+    font-size: 23px;
+    font-family: 'Palette Mosaic', cursive;
+}
+
+.gamecon img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 680px;
+}
+
+.button7{
+    background-color: #282A35;
+    color: #fff;
+    width: 15%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: none;
+    font-size: 20px;
+    
+}
+
+.exercises{
+    text-align: center;
+    background-image: url(https://www.w3schools.com/about/w3codes.png);
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+    padding-top: 50px;
+    font-size: 28px;
+}
+
+.learncon1{
+    display: grid;
+    grid-template-areas: "a a";
+    gap: 20px;
+    text-align: center;
+
+}
+
+.exercisesbtn{
+    height: 200px;
+    width: 80%;
+    border: none;
+    text-align: center;
+    margin: 70px;
+    background-color: #d9ec2e;
+    font-size: 40px;
+    border-radius: 10px;
+    color: #000;
+
+}
+
+.web{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 25px;
+}
+
+.web p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.web img{
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.webbtn{
+    margin-top: 30px;
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #282A35;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+}
+
+.career{
+    font-size: 30px;
+    background-color: #282A35;
+    margin-top: 150px;
+    height: 400px;
+    padding-left: 5%;
+}
+
+.career h1, h2{
+    padding-top: 50px;
+    color: #04AA6D;
+}
+
+.btn{
+    width: 12%;
+    height: 55px;
+    color: #fff;
+    border: none;
+    background-color: #04AA6D;
+    border-radius: 25px;
+    margin-top: 50px;
+    font-size: 18px;
+
+}
+
+.sectioncon{
+    text-align: center;
+    margin-top: 160px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.sectioncon h3, p{
+      margin-top: 30px;
+      font-size: 20px;
+}
+
+.sectioncon img{
+    margin-top: 50px;
+}
+
+.sectioncon button{
+    margin-top: 80px;
+    width: 30%;
+}
+
+
+.sectioncon button:hover{
+    background-color: #04AA6D;
+    border: none;
+}
+
+
+
+.footer{
+    background-color: #282A35;
+    height: 500px;
+    padding: 50px 30px;
+    text-align: center;
+    color: #fff;
+    margin-top: 80px;
+    
+}
+
+
+.leftfoot{
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    gap: 25px;
+}
+
+.btn1{
+    width: 8%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.rightfot{
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    margin-top: -40px;
+    font-size: 15px;
+}
+
+.rightfot h4{
+    height: 30px;
+    margin-right: -220px;
+}
+
+h4:hover{
+    cursor: pointer;
+    color: #04AA6D;
+}
+
+
+.footer p{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.img{
+    margin-top: 130px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.img2{
+    margin-top: 20px;
+}
+
+.img:hover{
+    cursor: pointer;
+    background-color: #04AA6D;
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+
+
+
+.hakim{
+    margin-top: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
